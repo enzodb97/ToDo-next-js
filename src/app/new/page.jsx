@@ -1,18 +1,44 @@
+
+"use client"
+
 function NewPage() {
+const onSubmit = async (e)=>{
+    e.preventDefault()
+    const title = e.target.title.value
+    const priority = e.target.priority.value
+    const state = e.target.state.value
+    const description = e.target.description.value
+
+    const response = await fetch('/api/tasks',{
+        method: 'POST',
+        body: JSON.stringify({title, description, priority, state}),
+        headers:{
+            'Content-Type': "application/json"
+        }
+    })
+    const data = await response.json()
+    console.log(data)
+}
+const handleReset = (e) => {
+    e.target.form.reset();
+  };
+
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-800">
+    <form onSubmit={onSubmit}>
       <div className="bg-gray-900 p-8 rounded-lg w-full max-w-2xl">
         <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
           <div className="sm:col-span-3">
             <label
-              htmlFor="first-name"
+              htmlFor="title"
               className="block text-sm font-medium text-white"
             >
               Nombre de la tarea
             </label>
             <div className="mt-2">
               <input
-                id="first-name"
+                id="title"
                 name="first-name"
                 type="text"
                 autoComplete="given-name"
@@ -42,15 +68,15 @@ function NewPage() {
           </div>
           <div className="sm:col-span-3">
             <label
-              htmlFor="status"
+              htmlFor="state"
               className="block text-sm font-medium text-white"
             >
               Estado
             </label>
             <div className="mt-2">
               <select
-                id="status"
-                name="status"
+                id="state"
+                name="state"
                 className="block w-full rounded-md bg-white py-1.5 pr-8 pl-3 text-base text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-600"
               >
                 <option>Sin iniciar</option>
@@ -71,7 +97,7 @@ function NewPage() {
             <div className="mt-2">
               <textarea
                 name="about"
-                id="about"
+                id="description"
                 rows="3"
                 className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600"
               ></textarea>
@@ -83,18 +109,19 @@ function NewPage() {
         </div>
         <hr />
         <div className="mt-6 flex items-center justify-end gap-x-6">
-        <button type="button" className="text-sm/6 font-semibold text-white">
+        <button type="button" className="text-sm/6 font-semibold text-white" onClick={handleReset}>
           Borrar
         </button>
         <button
           type="submit"
+          
           className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Guardar
         </button>
       </div>
       </div>
-      
+      </form>
     </div>
   );
 }
