@@ -4,6 +4,7 @@ import TaskCard from "@/components/TaskCard";
 async function loadTasks() {
   return await prisma.task.findMany();
 }
+export const dynamic ='force-dynamic'
 
 async function HomePage() {
   const tasks = await loadTasks();
