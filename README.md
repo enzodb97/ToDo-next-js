@@ -1,7 +1,15 @@
-![Descripción de la imagen]([ruta/a/tu/imagen.png](https://i.postimg.cc/vmg28xZz/3-2-1-merged-removed-organized-pages-to-jpg-0001.jpg))
-![Descripción de la imagen]([[ruta/a/tu/imagen.png](https://i.postimg.cc/vmg28xZz/3-2-1-merged-removed-organized-pages-to-jpg-0001.jpg](https://i.postimg.cc/MGCPnZc8/3-2-1-merged-removed-organized-pages-to-jpg-0002.jpg)))
-![Descripción de la imagen]([[ruta/a/tu/imagen.png](https://i.postimg.cc/vmg28xZz/3-2-1-merged-removed-organized-pages-to-jpg-0001.jpg](https://i.postimg.cc/MT1sVkRf/3-2-1-merged-removed-organized-pages-to-jpg-0003.jpg)))
 
+## Capturas de la web
+![Listado de tareas](https://i.postimg.cc/MT1sVkRf/3-2-1-merged-removed-organized-pages-to-jpg-0003.jpg)
+![Agregar nueva tarea](https://i.postimg.cc/MGCPnZc8/3-2-1-merged-removed-organized-pages-to-jpg-0002.jpg)
+![Editar o eliminar una tarea](https://i.postimg.cc/MT1sVkRf/3-2-1-merged-removed-organized-pages-to-jpg-0003.jpg)
+
+## Video en Youtube
+[![Video de la web en producción](https://i.postimg.cc/sDfcDHjm/1-v3-Xnd-Ye-Is-Btk4-Ckp-Mf7vm-A.jpg)](https://youtu.be/auSfnvgBOQA)
+
+
+## Ver producción
+[Producción](https://nextjs-prisma-crud-c3cspqtsx-enzodb97s-projects.vercel.app/)
 
 
 
