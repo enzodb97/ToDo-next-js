@@ -1,6 +1,6 @@
 
 ## Capturas de la web
-![Listado de tareas](https://i.postimg.cc/MT1sVkRf/3-2-1-merged-removed-organized-pages-to-jpg-0003.jpg)
+![Listado de tareas](https://i.postimg.cc/wvRqDhvw/3-2-1-merged-removed-organized-pages-to-jpg-0001.jpg)
 ![Agregar nueva tarea](https://i.postimg.cc/MGCPnZc8/3-2-1-merged-removed-organized-pages-to-jpg-0002.jpg)
 ![Editar o eliminar una tarea](https://i.postimg.cc/MT1sVkRf/3-2-1-merged-removed-organized-pages-to-jpg-0003.jpg)
 
