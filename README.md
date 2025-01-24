@@ -1,3 +1,10 @@
+![Descripción de la imagen]([ruta/a/tu/imagen.png](https://i.postimg.cc/vmg28xZz/3-2-1-merged-removed-organized-pages-to-jpg-0001.jpg))
+![Descripción de la imagen]([[ruta/a/tu/imagen.png](https://i.postimg.cc/vmg28xZz/3-2-1-merged-removed-organized-pages-to-jpg-0001.jpg](https://i.postimg.cc/MGCPnZc8/3-2-1-merged-removed-organized-pages-to-jpg-0002.jpg)))
+![Descripción de la imagen]([[ruta/a/tu/imagen.png](https://i.postimg.cc/vmg28xZz/3-2-1-merged-removed-organized-pages-to-jpg-0001.jpg](https://i.postimg.cc/MT1sVkRf/3-2-1-merged-removed-organized-pages-to-jpg-0003.jpg)))
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
